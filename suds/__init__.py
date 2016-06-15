@@ -158,4 +158,4 @@ def objid(obj):
         +':'+hex(id(obj))
 
 
-import client
+import suds.client as client
